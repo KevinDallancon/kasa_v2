@@ -1,0 +1,27 @@
+.FooterStyle {
+  background-color: black;
+  height: 209px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  p {
+    color: white;
+    width: 513px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    @include responsive(smartphone) {
+      width: 90%;
+      font-size: 12px ;
+    }
+  }
+  img {
+    width: 122px;
+
+    
+  }
+}
